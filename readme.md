@@ -8,8 +8,8 @@ then link them inside your code :
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/jquery.form.min.js"></script>
 <br>
-4. under them put these code and enjoy.
-	<script>
+4. under them put these code and enjoy
+<br>
 		$(document).ready(function(){
 			$("#sendData").click(function(){
 		    // here put id of your form.
@@ -35,5 +35,5 @@ then link them inside your code :
 			});
 
 	    });
-	</script>
+	
 </p>
