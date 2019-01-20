@@ -9,33 +9,31 @@ then link them inside your code :
 <script src="js/jquery.form.min.js"></script>
 <br>
 4. under them put these code and enjoy.
-<script>
-	$(document).ready(function(){
-		$("#sendData").click(function(){
-            // here put id of your form.
-			var formData = new FormData($("#myform")[0]);
-        $.ajax({
-            // put the your php file link.
-            url: 'php/send_data.php',
-            type: 'post',
-            data: formData,
-           
-        processData: false,
-         contentType: false,
-            crossDomain: true,
-        }).done(function(response) {
-         alert(response);
-          $("#result").html(response);  
-        }).fail(function() {
-            console.log('Failed');
-        });
+	<script>
+		$(document).ready(function(){
+			$("#sendData").click(function(){
+		    // here put id of your form.
+				var formData = new FormData($("#myform")[0]);
+		$.ajax({
+		    // put the your php file link.
+		    url: 'php/send_data.php',
+		    type: 'post',
+		    data: formData,
 
-        return false;
-
+		processData: false,
+		 contentType: false,
+		    crossDomain: true,
+		}).done(function(response) {
+		 alert(response);
+		  $("#result").html(response);  
+		}).fail(function() {
+		    console.log('Failed');
 		});
-	
-    });
 
-	
-</script>
+		return false;
+
+			});
+
+	    });
+	</script>
 </p>
