@@ -10,6 +10,7 @@ then link them inside your code :
 <br>
 4. under them put these code and enjoy
 <br>
+	
 		$(document).ready(function(){
 			$("#sendData").click(function(){
 		    // here put id of your form.
