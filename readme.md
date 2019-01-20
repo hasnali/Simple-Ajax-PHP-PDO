@@ -1,7 +1,9 @@
 <h1> Simple Contact us Form With Ajax and PHP PDO</h1>
 <p>
 1. download this repo.
+<br>
 2. extract files.
+<br>
 3. move : "jquery-3.2.1.min.js,jquery.form.min.js" from "js" folder to your js scripts folder.
 then link them inside your code :
 <br>
